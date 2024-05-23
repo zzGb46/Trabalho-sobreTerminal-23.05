@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(to top, black,gray );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#primeira{
+    height: 400px;
+    width: 2000px;
+}
+
+h1{
+position: absolute;
+margin-top: -250px;
+margin-left: 650px;
+color: white;
+font-size: 80px;
+}
+
+
+ul{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 30px;
+    background-color: white;
+}
+
+li{
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+    margin-right: 40px;
+}
+
+li:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+table{
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    width: 2000px;
+
+}
+
+th{
+    color: red;
+}
+
+#alinhar{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+}
+
+#botao{
+    display: flex;
+    justify-content: center;
+    color: white;   
+}
+
+button{
+    font-size: 20px;
+    transition: all 0.3 ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: red;
+}
+
+#imagem{
+    width: 300px;
+    height: 300px;
+   
+}
+
+#divs{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px; 
+}
+
+#fundo{
+    
+    background-color: black;
+    height: 400px;
+    align-items: center;
+    
+    
+    
+}
+
+#textinho{
+   
+    color: white;
+    font-size: 20px;
+}
